@@ -9,6 +9,7 @@ Create a simple dice roll simulator where you use the randint function to simula
 '''
 
 # solution for exercise 4 👇🏽
+<<<<<<< Updated upstream
 
 from random import randint
 
@@ -17,3 +18,13 @@ def roll_dice():
 
 roll_result = roll_dice()
 print("The roll result is " + str(roll_result))
+=======
+from random import randint
+def generate_a_random_integer (start_number, end_number):
+    generated_integer = randint(start_number, end_number)
+    return generated_integer
+
+result= generate_a_random_integer(1, 6)
+print ("Random number: "+ str(result))
+
+>>>>>>> Stashed changes
