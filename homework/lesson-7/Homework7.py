@@ -69,3 +69,4 @@ for item in shopping_list2:
 
 total_items= len (shopping_list2)
 print ("Total items:", total_items)
+
